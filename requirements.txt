@@ -1,0 +1,7 @@
+# This project uses PHP and MySQL. No Python requirements.
+
+# Suggested extensions/tools
+php >= 7.4
+mysqli
+apache2 or nginx
+mysql-server
