@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CTS privaate Ltd.</title>
+
+    <h1 style="text-align: center; color: white">Welcome to the Dashboard</h1>
+    <style>
+      body {
+        background-image: url("https://www.wisesecurity.net/wp-content/uploads/2019/11/160-1600491_autodesk-wallpaper-website-background.jpg");
+      }
+
+      .but {
+        display: flex;
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center;
+        height: 100vh;
+        padding: 0px;
+      }
+
+      button {
+        padding: 12px 30px;
+        font-size: 16px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 5px 0; /* Add spacing between buttons */
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="but">
+      <button onclick="location.href='emp.php';">Employee Details .</button>
+      <button onclick="location.href='dept.php';">Department Details</button>
+      <button onclick="location.href='attendance.php';">
+        attendance Details
+      </button>
+    </div>
+  </body>
+</html>
