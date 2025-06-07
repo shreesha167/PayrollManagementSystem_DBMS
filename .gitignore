@@ -1,0 +1,19 @@
+# PHP Specific
+*.log
+*.sql
+*.sqlite
+*.env
+vendor/
+composer.lock
+
+# IDE and OS Specific
+.vscode/
+*.DS_Store
+Thumbs.db
+
+# Node.js (if used in frontend)
+node_modules/
+
+# Backup files
+*~
+*.bak
